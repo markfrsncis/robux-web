@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  background-image: radial-gradient(circle at 18% 8%, rgba(168,85,247,0.16), transparent 35%), radial-gradient(circle at 82% 5%, rgba(34,211,238,0.18), transparent 42%);
+}
+
+[data-theme='light'] body {
+  @apply bg-slate-100 text-slate-900;
+  background-image: radial-gradient(circle at 18% 8%, rgba(168,85,247,0.16), transparent 35%), radial-gradient(circle at 82% 5%, rgba(34,211,238,0.18), transparent 42%);
+}
+
+[data-theme='light'] .text-white {
+  color: rgb(15 23 42);
+}
+
+[data-theme='light'] .text-slate-300,
+[data-theme='light'] .text-slate-200,
+[data-theme='light'] .text-slate-400 {
+  color: rgb(71 85 105);
+}
+
+[data-theme='light'] .bg-white\/5,
+[data-theme='light'] .bg-slate-900\/60,
+[data-theme='light'] .bg-slate-900\/95,
+[data-theme='light'] .bg-slate-950\/40 {
+  background-color: rgba(255, 255, 255, 0.72);
+}
