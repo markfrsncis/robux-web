@@ -1,14 +1,12 @@
-import Footer from './Footer';
 import Navbar from './Navbar';
-import AnimatedBackground from './AnimatedBackground';
+import Footer from './Footer';
 
 export default function Layout({ children }) {
   return (
-    <>
-      <AnimatedBackground />
+    <div className="min-h-screen bg-slate-50 text-slate-900">
       <Navbar />
-      <main className="mx-auto max-w-6xl px-6 pt-10">{children}</main>
+      <main className="mx-auto max-w-5xl px-4 py-10">{children}</main>
       <Footer />
-    </>
+    </div>
   );
 }
