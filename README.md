@@ -1,22 +1,20 @@
 # robux-web
 
-Basic multi-page portfolio built with Next.js + Tailwind CSS.
+Static multi-page portfolio built with plain **HTML, CSS, and JavaScript**.
+
+## Pages
+- `index.html`
+- `about.html`
+- `projects.html`
+- `contact.html`
 
 ## Run locally
+You can open `index.html` directly in your browser.
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start development server:
-   ```bash
-   npm run dev
-   ```
-3. Open http://localhost:3000
-
-## Build for production
+For best results, run a simple local server:
 
 ```bash
-npm run build
-npm run start
+python3 -m http.server 5500
 ```
+
+Then visit `http://localhost:5500`.
