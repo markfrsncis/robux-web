@@ -1,0 +1,1 @@
+setActiveNav('contact.html');

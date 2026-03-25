@@ -1,22 +1,18 @@
 # robux-web
 
-A premium, animated multi-page portfolio built with **Next.js (App Router)**, **Tailwind CSS**, and **Framer Motion**.
+Award-style multi-page portfolio using only **HTML, CSS, and JavaScript**.
 
 ## Pages
-- `/` Home
-- `/about` About
-- `/projects` Projects
-- `/contact` Contact
+- `index.html`
+- `about.html`
+- `projects.html`
+- `contact.html`
 
-## Run locally
-```bash
-npm install
-npm run dev
-```
-Open http://localhost:3000
+## Run
+Open `index.html` directly, or run a local server:
 
-## Build
 ```bash
-npm run build
-npm run start
+python3 -m http.server 5500
 ```
+
+Then visit `http://localhost:5500`.
